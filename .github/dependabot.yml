@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # Keeps bezel-charts, pandas and scikit-learn up to date
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    labels: ["dependencies"]
+  # Keeps the GitHub Actions in the workflows up to date
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    labels: ["dependencies"]

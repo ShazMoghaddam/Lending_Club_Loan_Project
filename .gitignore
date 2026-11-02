@@ -1,0 +1,12 @@
+# The full Kaggle download is far too big for GitHub
+data/raw/
+accepted_2007_to_2018Q4.csv*
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
